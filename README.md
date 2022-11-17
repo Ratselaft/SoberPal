@@ -1,4 +1,5 @@
 # SoberPal
+
 Hello Guys,
 This is the sober pal repository. If you got an invite it means you're an FE dev on the mechinal-cranckshaft team.
 
@@ -23,3 +24,5 @@ Make pull-requests after finishing each task.
 THANKS
 
 Follow through and other necessary informations will be added later.
+=======
+SoberPal’s features are targeted to assist users deal with any form of addiction by motivating and supporting them from relapse through online peer support. This product gives you access to an online community that holds your hand in your quest to overcome addictions
