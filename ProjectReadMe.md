@@ -35,5 +35,7 @@ SoberPal’s features are targeted to assist users deal with any form of addicti
 
 create-react-app : Pandora
 react-router-dom : Pandora
+scss : Pandora
+react-icons : Pandora
 
 
