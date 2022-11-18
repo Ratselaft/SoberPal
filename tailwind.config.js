@@ -6,10 +6,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        yellow: "#FFD700",
-        black: {
-          200: "#1E1E1E",
-        },
         blue: "#204e65",
       },
       screens: {
@@ -21,5 +17,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: []
 }

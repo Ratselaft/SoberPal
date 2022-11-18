@@ -9,7 +9,9 @@ body {
   font-family: var(--primary-font);
  
 }
-
+.html {
+  scroll-behavior: smooth;
+}
 :root {
   /* Font Family */
   --primary-font: 'Cabinet Grotesk', sans-serif;
