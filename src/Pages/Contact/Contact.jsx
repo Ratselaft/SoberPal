@@ -2,6 +2,9 @@ import "./contact.scss";
 import { GrLocation } from "react-icons/gr";
 import { BsTelephone } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
+import { AiOutlineFacebook } from "react-icons/ai";
+import { ImTwitter } from "react-icons/im";
+import Map from '../../assets/Map.png'
 
 const Contact = () => {
   return (
@@ -13,6 +16,7 @@ const Contact = () => {
       <div className="contact__content-section">
         <div className="section__one">
           <h2>Get in touch with us. How can we help?</h2>
+          {/* form container */}
           <form>
             <div className="input__container">
               <label>Name</label>
@@ -43,7 +47,9 @@ const Contact = () => {
             <button type="submit">Submit</button>
           </form>
         </div>
+        {/* section two of the container */}
         <div className="section__two">
+          {/* address section */}
           <div className="address__section">
             <div className="address">
               <GrLocation />
@@ -54,6 +60,7 @@ const Contact = () => {
               <p>01 3456789</p>
             </div>
           </div>
+          {/* social icons */}
           <div className="socials">
             <h3>Follow Us</h3>
             <div className="icons">
@@ -61,12 +68,16 @@ const Contact = () => {
                 <BsInstagram className="icon" />
               </div>
               <div className="icon__container">
-                <BsInstagram className="icon" />
+                <AiOutlineFacebook className="icon" />
               </div>
               <div className="icon__container">
-                <BsInstagram className="icon" />
+                <ImTwitter className="icon" />
               </div>
             </div>
+          </div>
+          {/* map */}
+          <div>
+           <img src={Map}  className="map"  alt="Map"/>
           </div>
         </div>
       </div>
