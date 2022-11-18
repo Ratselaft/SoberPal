@@ -14,7 +14,11 @@ const MobileNav = ({setIsOpen}) => {
         </button>
           <ul className='mt-[60px]'>
             {navbarList.navList.map(({index, page, link}) => 
-              <Link key={index} to={link}>
+              <Link 
+                key={index} 
+                to={link}
+                onClick={() => setIsOpen(false)}
+              >
                 <li className='p-4 font-[700] mx-3 text-white'>{page}</li>
               </Link>
             )}

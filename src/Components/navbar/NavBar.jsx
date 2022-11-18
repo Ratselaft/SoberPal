@@ -9,11 +9,13 @@ const NavBar = () => {
   return (
     <div>
       <div className="py-4 max-w-[1400px] w-[90%] mx-auto flex justify-between">
-        <p className="text-[32px] text-blue font-[700]">{navbarList.logo}</p>
+        <Link to="/">
+          <p className="text-[32px] text-blue font-[700]">{navbarList.logo}</p>
+        </Link>
         <div>
           <ul className="hidden laptop:flex">
             {navbarList.navList.map(({ index, page, link }) => (
-              <Link key={index} to={link}>
+              <Link key={index}  to={link}>
                 <li className="p-4 font-[700] mx-3">{page}</li>
               </Link>
             ))}
