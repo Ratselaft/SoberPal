@@ -1,17 +1,25 @@
 section {
+  // margin-top: 3rem;
+  object-fit: contain;
+  background: white;
+  height: auto;
+  width: 100%;
   header {
     text-align: center;
+    height: auto;
     h1 {
       color: var(--primary-500);
       font-family: var(--primary-font);
       font-weight: 700;
       font-size: 2rem;
       line-height: 6px;
+      margin-bottom: 1rem;
     }
     p {
       font-weight: 400;
-      font-size: 1rem;
+      font-size: 1.2rem;
       color: var(--gray-500);
+      margin-bottom: 4rem;
     }
   }
   .contact__content-section {
@@ -24,6 +32,7 @@ section {
       h2 {
         font-weight: 500;
         color: var(--gray-700);
+        font-size: 1.3rem;
       }
       form {
         .input__container {
@@ -97,12 +106,15 @@ section {
           color: var(--gray-900);
           font-weight: 700;
           font-size: 2rem;
+          margin-bottom: 3rem;
+          margin-top: 2rem;
         }
         .icons {
           display: flex;
           gap: 1rem;
           align-items: left;
           font-size: 2rem;
+        
           .icon__container {
             background: var(--primary-500);
             border-radius: 50%;

@@ -10,8 +10,8 @@ export const navbarList =  {
             link: "/about"
         },
         {
-            page: "Carrers",
-            link: "/carrers"
+            page: "Careers",
+            link: "/careers"
 
         },
         {

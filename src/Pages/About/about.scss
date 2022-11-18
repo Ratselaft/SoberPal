@@ -65,29 +65,36 @@ section {
   }
   .team{
     text-align: center;
-    h3{
+     h3{
         color: var(--primary-500);
         font-weight: 700;
         font-size: 36px;
+        margin-top: 3rem;
     }
     & > p{
         color: var(--secondary-600);
         font-weight: 400;
         line-height: 2rem;
-        margin-top: -3rem;
+        margin-top: 1rem;
     }
     .team__members{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         .member{ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
             .avatar{
                 transform: scale(.8);
-                margin-bottom: -1rem;
+                margin-bottom: 1rem;
             }
             .name{
                 color: var(--primary-500);
                 font-weight: 700;
                 font-size: 1rem;
+                margin-bottom: .7rem;
             }
             .designation{
                 color: var(--primary-500);
