@@ -9,9 +9,9 @@ import Faq from '../Pages/Faq/Faq'
 const CreateRoute = () => {
   return (
     <Routes>
-      <Route path='home' element={<Home/>} />
+      <Route path='/' element={<Home/>} />
       <Route path='about' element={<About/>} />
-      <Route path='/' element={<Contact/>} />
+      <Route path='contact' element={<Contact/>} />
       <Route path='faq' element={<Faq/>} />
     </Routes>
   )
