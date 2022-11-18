@@ -4,6 +4,7 @@ import Home from '../Pages/Home/Home';
 import About from '../Pages/About/About';
 import Contact from '../Pages/Contact/Contact';
 import Faq from '../Pages/Faq/Faq'
+import JobApp from '../Pages/JobApp/JobApp';
 
 
 const CreateRoute = () => {
@@ -13,6 +14,7 @@ const CreateRoute = () => {
       <Route path='about' element={<About/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='faq' element={<Faq/>} />
+      <Route path='/careers' element={<JobApp />} />
     </Routes>
   )
 }
