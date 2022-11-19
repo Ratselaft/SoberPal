@@ -7,9 +7,11 @@
 body {
   margin: 0;
   font-family: var(--primary-font);
- 
+  /* background:  #DDDDDD; */
 }
-
+.html {
+  scroll-behavior: smooth;
+}
 :root {
   /* Font Family */
   --primary-font: 'Cabinet Grotesk', sans-serif;
@@ -97,7 +99,5 @@ body {
   --info-700: #285cad;
   --info-800: #1f4786;
   --info-900: #183666;
-
-
 
 }

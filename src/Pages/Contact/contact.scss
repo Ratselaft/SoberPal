@@ -1,17 +1,27 @@
 section {
+  background: white;
+  height: auto;
+  width: auto;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-bottom: 5rem;
   header {
+    margin-top: 2rem;
     text-align: center;
+  
     h1 {
       color: var(--primary-500);
       font-family: var(--primary-font);
       font-weight: 700;
       font-size: 2rem;
       line-height: 6px;
+      margin-bottom: 1rem;
     }
     p {
       font-weight: 400;
-      font-size: 1rem;
+      font-size: 1.2rem;
       color: var(--gray-500);
+      margin-bottom: 4rem;
     }
   }
   .contact__content-section {
@@ -24,6 +34,7 @@ section {
       h2 {
         font-weight: 500;
         color: var(--gray-700);
+        font-size: 1.3rem;
       }
       form {
         .input__container {
@@ -45,21 +56,21 @@ section {
               outline: none;
             }
             &::placeholder {
-              color: var(--gray-700);
+              color:  #999999;
               font-size: 10px;
             }
           }
           textarea {
             resize: none;
-            border: 1px solid var(--primary-50);
+            // border: 1px solid var(--primary-50);
             font-family: var(--primary-font);
             padding: 0.5rem 0.5rem;
-            background: rgba(233, 237, 240, 0.5);
+            background: rgba(233, 237, 240, 0.2);
             &:focus {
               outline: none;
             }
             &::placeholder {
-              color: var(--gray-700);
+              color:  #999999;
               font-size: 10px;
               font-weight: 400;
             }
@@ -71,7 +82,7 @@ section {
           height: 40px;
           border-radius: 4px;
           border: none;
-          background: var(--primary-500);
+          background: var(--primary-50);
           font-weight: 500;
           font-size: 12px;
           color: #9eb3bc;
@@ -97,12 +108,15 @@ section {
           color: var(--gray-900);
           font-weight: 700;
           font-size: 2rem;
+          margin-bottom: 3rem;
+          margin-top: 2rem;
         }
         .icons {
           display: flex;
           gap: 1rem;
           align-items: left;
           font-size: 2rem;
+        
           .icon__container {
             background: var(--primary-500);
             border-radius: 50%;
