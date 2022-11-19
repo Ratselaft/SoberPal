@@ -5,6 +5,7 @@ import About from '../Pages/About/About';
 import Contact from '../Pages/Contact/Contact';
 import Faq from '../Pages/Faq/Faq'
 import Services from '../Pages/Services/Services';
+import Team from '../Pages/Team/Team';
 
 
 const CreateRoute = () => {
@@ -15,6 +16,7 @@ const CreateRoute = () => {
       <Route path='contact' element={<Contact/>} />
       <Route path='faq' element={<Faq/>} />
       <Route path='services' element={<Services />} />
+      <Route path='team' element={<Team />} />
       {/* <Route path="*" element={<NotFound />} /> */}
     </Routes>
   )
