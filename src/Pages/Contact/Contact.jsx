@@ -21,7 +21,7 @@ const Contact = () => {
             <div className="input__container">
               <label>Name</label>
               <input
-                type=""
+                type="text"
                 name=""
                 value=""
                 placeholder="Omowunmi Olawehinmi"
@@ -30,7 +30,7 @@ const Contact = () => {
             <div className="input__container">
               <label>Email</label>
               <input
-                type=""
+                type="text"
                 name=""
                 value=""
                 placeholder="omowunmi2022@gmail.com"

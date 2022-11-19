@@ -2,6 +2,10 @@ import "./about.scss";
 import hands from "../../assets/hands.jpg";
 import TeamData from "../../Data/TeamData";
 import AppStat from "../../Data/AppStat";
+import OurValues from "../../Components/ourvalues/OurValues";
+import interview from "../../assets/interview.png";
+import Job from "../../Components/jobcontainer/Job";
+import Button from '../../UI/Button'
 
 const About = () => {
   return (
@@ -54,6 +58,36 @@ const About = () => {
           ))}
         </div>
       </section>
+
+      {/* ourvalues section */}
+      <section>
+        <OurValues />
+      </section>
+
+      {/* open postions section */}
+      <section className="position">
+        <p>Open positions</p>
+        <h4>We’re looking for talented people</h4>
+        <p className="position__text">
+          We’re a 100% remote team spread all across the world. Join us!
+        </p>
+        <div className="interview">
+          <img src={interview} alt="Interview" />
+        </div>
+      </section>
+
+       {/* job container section */}
+       <section>
+          <Job />
+        </section>
+
+      <div className="download" >
+          <div>
+            <h6>Download the Soberpal app</h6>
+            <p>Join over 200+ people already growing with Soberpal.</p>
+          </div>
+          <Button text='Download App' />
+        </div>
     </section>
   );
 };
