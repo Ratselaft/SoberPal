@@ -11,7 +11,11 @@ import { AiOutlineDollar } from 'react-icons/ai';
 const Team = () => {
     const download = 'Download app'
   return (
+
+    /* team--container-----containing everything in the team page */
     <div className="team__container">
+
+        {/* team---text---contents */}
       <div className="team">
         <div className="team__text">
             <span>The team</span>
@@ -19,8 +23,10 @@ const Team = () => {
             <p>We’re a small team that loves to create great experiences and make meaningful 
                 connections between builders and customers. Join our remote ream!</p>
         </div>
+
+        {/* different team images */}
         <div className="team__img">
-            
+            {/* mapped through my data file to access the images and informations */}
             {TeamData.map((data) => (
                 <div className="team-info">
                     <img src={data.avatar} alt="" />
@@ -32,6 +38,8 @@ const Team = () => {
             
         </div>
       </div>
+
+      {/* team positions being looked for */}
       <div className="Team__position">
             <span>Open positions</span>
             <h2>We’re looking for talented people</h2>
@@ -39,7 +47,10 @@ const Team = () => {
             <img src={TeamImg} alt="" id='teamImg'/>
             <img src={TeamImgmobile} alt="" id='teamImgmobile'/>
 
+                {/* roles for team-positions */}
             <div className="team__position__roles">
+
+                {/* the design roles */}
                 <div className="design">
                     <h3 className='role__title'>Design</h3>
                     <div className="product__designer">
@@ -62,8 +73,11 @@ const Team = () => {
                     </div>
                 </div>
 
+                {/* software development roles */}
                 <div className="software__development">
                     <h3 className='role__title'>Software Development</h3>
+
+                    {/* frontend-development role under software development */}
                     <div className="frontend__developer">
                         <h3 className='role'>Frontend developer</h3>
                         <p>We’re looking for an experienced frontend 
@@ -78,11 +92,14 @@ const Team = () => {
             </div>
       </div>
 
+        {/* download app section */}
       <div className="team__download-app">
         <div className="team__download-app-text">
           <h3>Download the Soberpal app</h3>
           <p className='team__p download__p'>Join over 200+ people already growing with Soberpal.</p>
         </div>
+
+        {/* download button to download soberpal */}
         <div className="team__download-app-btn">
         <Button text={download} id='btn'/>
         </div>
